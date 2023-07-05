@@ -1,1 +1,1 @@
-fun main(): Unit? = Unit
+fun main() = Unit
