@@ -1,4 +1,4 @@
-package structural.composit.shape
+package structural.composite.shape
 
 import java.awt.Graphics
 

@@ -1,9 +1,9 @@
-package structural.composit
+package structural.composite
 
-import structural.composit.shape.Circle
-import structural.composit.shape.CompoundShape
-import structural.composit.shape.Dot
-import structural.composit.shape.Rectangle
+import structural.composite.shape.Circle
+import structural.composite.shape.CompoundShape
+import structural.composite.shape.Dot
+import structural.composite.shape.Rectangle
 
 /**
  * Composite (Компоновщик / Дерево) — это структурный паттерн проектирования, который позволяет сгруппировать

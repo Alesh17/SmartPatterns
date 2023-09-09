@@ -1,7 +1,7 @@
-package structural.composit
+package structural.composite
 
-import structural.composit.shape.CompoundShape
-import structural.composit.shape.Shape
+import structural.composite.shape.CompoundShape
+import structural.composite.shape.Shape
 import java.awt.Canvas
 import java.awt.Color
 import java.awt.Graphics
