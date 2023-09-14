@@ -18,7 +18,7 @@ abstract class Command(private val originator: Originator) {
     }
 
     fun undo() {
-        snapshot?.let { originator.restore(it) }
+        snapshot?.restore()
     }
 
     abstract fun execute()
