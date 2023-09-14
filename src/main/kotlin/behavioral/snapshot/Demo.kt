@@ -2,7 +2,7 @@ package behavioral.snapshot
 
 import behavioral.snapshot.command.WorkOneCommand
 import behavioral.snapshot.command.WorkTwoCommand
-import behavioral.snapshot.editor.Originator
+import behavioral.snapshot.originator.Originator
 
 /**
  * Snapshot (Memento, Снимок, Хранитель) — это поведенческий паттерн проектирования, который позволяет сохранять

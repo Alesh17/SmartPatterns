@@ -1,7 +1,6 @@
 package behavioral.snapshot.command
 
-import behavioral.snapshot.editor.Originator
-import behavioral.snapshot.snapshot.Snapshot
+import behavioral.snapshot.originator.Originator
 
 /**
  * Caretaker.
@@ -12,7 +11,7 @@ import behavioral.snapshot.snapshot.Snapshot
  */
 abstract class Command(private val originator: Originator) {
 
-    private var snapshot: Snapshot? = null
+    private var snapshot: Originator.Snapshot? = null
 
     protected fun backup() {
         snapshot = originator.backup()
