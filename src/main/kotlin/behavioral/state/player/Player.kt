@@ -14,12 +14,13 @@ class Player {
         isPlaying = true
     }
 
-    fun isPlaying() = isPlaying
     fun getState() = state
 
-    fun changeState(state: State) {
-        this.state = state
+    fun changeState(s: State) {
+        state = s
     }
+
+    fun isPlaying() = isPlaying
 
     fun start() {
         print("Playing")
